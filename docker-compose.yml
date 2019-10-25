@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aliacatalogwebsite:
+    image: ${DOCKER_REGISTRY-}aliacatalogwebsite
+    build:
+      context: .\..\..\..\OneDrive\git\AliaCatalogProject\Website\AliaCatalogWebsite
+      dockerfile: Dockerfile
